@@ -1,0 +1,129 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    transition: all 0.5s linear;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+    scroll-padding-top: 85px;
+}
+.navbar {
+    background:url("./../images/c4.jpg");
+    background-size: cover;
+    position: sticky;
+    top: 0%;
+    z-index: 5;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.619);
+}
+.nav-link {
+    text-shadow: 1px 1px 0.5px black;
+    font-weight: 600;
+    line-height: 1;
+}
+.collapse ul li {
+    padding-inline: 20px;
+    text-transform: uppercase;
+}
+.searchbtn {
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    border-radius: 65px;
+    width: 90px;
+    height: 42px;
+    color: ghostwhite;
+    margin-left: -89px;
+    font-weight: 650;
+    border: none;
+  }
+  .search {
+    outline: none;
+    border-radius: 60px;
+    border: 2px solid rgb(150, 93, 138);
+    width: 190px;
+  }
+
+#qt {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 10px rgb(0, 217, 255);
+    position: absolute;
+    bottom: 100px;
+}
+h1 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 3px white;
+    font-family: 'kalam';
+}
+
+.text {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    text-align: center;
+    margin: 0px;
+    top: 100px;
+    width: 800px;
+}
+img{
+    border-radius: 2px;
+}
+img:hover {
+    transition: 0.9s;
+    transform: scale(102%, 103%);
+    opacity: 0.9;
+}
+.morebtn{
+    background-color: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    border: none;
+    height: 45px;
+    width: 20%;
+    font-weight: 700;
+}
+.btn1 {
+    background-color: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    border: none;
+    height: 45px;
+    width: 30%;
+    font-weight: 700;
+}
+
+#back {
+    background: url(../images/bg.JPG) no-repeat;
+    background-size: cover;
+}
+
+.card-body {
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+#rate {
+    text-decoration: line-through;
+}
+
+#rate1 {
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+}
+.bi{
+    color: yellow;
+}
+span {
+    color: red;
+    text-shadow: 1px 1px 2px black;
+}
+hr{
+    background-color: white;
+}
